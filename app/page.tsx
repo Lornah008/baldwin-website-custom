@@ -9,22 +9,22 @@ import WhyChooseUs from '@/components/WhyChooseUs'
 import CorePartnerShip from '@/components/CorePartnership'
 
 export const metadata: Metadata = {
-        title: 'Baldwin Enterprises',
-        description: 'Boost your signal today with our cell boosters.',
+          title: 'Baldwin Enterprises',
+          description: 'Boost your signal today with our cell boosters.',
 }
 
 export default function Home() {
-        return (
-                  <section>
-                        <Suspense fallback={<Loading />}>
-                                <Hero />
-                                <WhyChooseUs />
-                                <Clients />
-                                <CorePartnerShip />
-                                <TrackRecord />
-                                <FAQs />
-                        </Suspense>Suspense>
-                  </section>section>
-                )
+          return (
+                      <section>
+                            <Suspense fallback={<Loading />}>
+                                    <Hero />
+                                    <WhyChooseUs />
+                                    <Clients />
+                                    <CorePartnerShip />
+                                    <TrackRecord />
+                                    <FAQs />
+                            </Suspense>Suspense>
+                      </section>section>
+                    )
 }
 </section>
